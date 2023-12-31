@@ -1,0 +1,16 @@
+Array's of Array->
+
+syntax:
+
+explicit:
+datatype arrayname[][]={{e1,e2...en},{e1,e2...en},{e1,e2...en}n};
+
+3x4
+
+int a[][]={{1,2,3,4},{5,6,7,8},{9,1,2,3}};
+
+Implicit:
+
+datatype arrayname[][]=new datatype[row][col];
+
+int a[][]=new int[3][4];

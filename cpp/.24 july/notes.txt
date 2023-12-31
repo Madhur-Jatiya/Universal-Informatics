@@ -1,0 +1,6 @@
+Encapsulation-> The wrapping up of data(variable) and method within a single unit is known as encapsulation.
+
+
+Encapsulation says data should be private and method should be public.
+
+Access Specifier

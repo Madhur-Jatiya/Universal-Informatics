@@ -1,0 +1,34 @@
+1. single level inheritance
+
+{
+1 parent 
+1 child
+}
+
+2. multiple level inheritance
+
+{
+1 parent
+1 parent or child
+1 child
+}
+
+3. hierarchichal inheritance
+
+{
+1 parent 
+multiple child
+}
+
+4. multiple inheritance
+
+{
+multiple parent
+1 child 
+}
+
+5. hybrid inheritance
+
+{
+
+}

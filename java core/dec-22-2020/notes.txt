@@ -1,0 +1,22 @@
+throw->By the help of this keyword we actually throw an exception.
+
+void m()
+{
+throw exception'sObject;
+}
+
+
+CheckedException-> Those exception which are checked at compiletime otherwise error generate like must be cought or declared to be thrown.
+eg->Direct decentdent of exception except RuntimeException is known as checked exception.
+
+UncheckedException->Those exception which come at run time.
+Decendent of RuntimeException is known as UncheckedException.
+
+Error->Poor programming logic
+
+
+
+
+
+
+

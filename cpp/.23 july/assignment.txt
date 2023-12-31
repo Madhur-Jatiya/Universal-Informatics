@@ -1,0 +1,136 @@
+class College
+{
+string name,email,mob;
+
+College()
+{
+name,email,mob take value at runtime
+}
+
+putCollege()
+{
+print name,email,mob
+
+}
+}
+
+This college class will be inherited by all three class
+
+
+class BTech
+{
+int p,c,m;
+
+Btech()
+{
+take value p,c,m at run time
+
+}
+
+putBtech()
+{
+putCollege();
+print p,c,m
+claculate percentage in per variable
+
+
+if(per>=70)
+{
+addmission confirm
+}
+else {
+addmission not confirm
+}
+}
+
+}
+
+
+class Bcom
+{
+int eco,mang,acc;
+
+Bcom()
+{
+eco mang acc take value at run time
+}
+putBcom()
+{
+putCollege();
+print eco , mang ,acc
+claculate percentage in per variable
+
+
+if(per>=70)
+{
+addmission confirm
+}
+else {
+addmission not confirm
+}
+
+}
+}
+
+
+class BA
+{
+int h,c,g
+
+BA()
+{
+h,c,g take value at run time
+
+}
+putBA()
+{
+putCollege();
+print h,c,g
+claculate percentage in per variable
+
+
+if(per>=70)
+{
+addmission confirm
+}
+else {
+addmission not confirm
+}
+
+}
+}
+
+
+
+main()
+{
+enter 1 for BTech ,2 for Bcom and 3 for BA addmission
+
+x
+
+
+if(x==1)
+{
+BTech bt;
+bt.putBtech();
+
+}
+else if(x==2)
+{
+Bcom bc;
+bc.putBcom();
+
+}
+
+else if(x==3)
+{
+BA ba;
+ba.putBA();
+
+}
+
+
+
+
+
+}

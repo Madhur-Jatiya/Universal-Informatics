@@ -1,0 +1,6 @@
+Scanner class->This predefined class is used to take value at run time.
+This class lives in util package.
+
+
+
+

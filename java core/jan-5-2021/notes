@@ -1,0 +1,10 @@
+Serialization->Convert Object into Stream.
+
+ObjectOutputStream
+
+
+Deserialization->Convert Stream into object.
+
+ObjectInputStream
+
+

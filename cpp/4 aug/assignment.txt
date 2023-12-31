@@ -1,0 +1,48 @@
+//binary oprator
+Enter hour=
+h
+
+Enter minute=
+m
+
+Enter second
+s
+
+Time
+
+
+getTime()
+{
+h,m,s
+take value at run time
+}
+
+
+putTwonum()
+{
+print h:m:t
+}
+
+
++(Time A)
+{
+Time j;
+j.h=h+A.h;
+j.m=m+A.m;
+j.s=s+A.s;
+return j;
+}
+
+
+main()
+{
+Time t1,t2,t3;
+
+t1.getTime();
+t2.getTime();
+
+t3=t1+t2;
+
+t3.putTime();
+
+}

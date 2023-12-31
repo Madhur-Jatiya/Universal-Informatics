@@ -1,0 +1,146 @@
+//predefined method in java
+
+1)   length(); 
+{
+//count the caracter in any word
+Ex:-"Hello"
+length();
+output=4
+}
+
+2)   trim(); 
+{
+//The trim method checks this unnecessary space before and after the string, if it exists then removes the spaces 
+Ex:-"         Hello          "
+trim(); 
+output=Hello
+} 
+
+3)   charAt(x);
+{
+//it prints the letter of word acc. the value of x
+Ex:-"Hello"
+charAt(3);
+output=l
+}
+
+4)   replace("xyz","abc");
+{
+//it replace the original word/statement to our customise word/statement
+Ex:-"Are you Monkey??"
+replace("Monkey","M****y");
+output="Are you M****y??"
+}
+
+5) toLowerCase();
+{
+//it convert the all string into lower case
+Ex:-"Hyy bhai kese ho"
+toLowerCase();
+output="hyy bhai kese ho"
+}
+
+6) toUpperCase();
+{
+//it convert the all string into upper case
+Ex:-"Hyy bhai kese ho"
+toUpperCase();
+output="HYY BHAI KESE HO"
+}
+
+7) contains("x");
+{
+//if in string the  x(word/letter) is present then it pass true(1) value otherwise false(0)
+Ex:-"What is ur name??"
+contains("is");
+pass=true(1) 
+}
+
+8) x.equals(y)
+{
+//if in string the value x is equal to value of y then it pass true(1) value otherwise false(0) 
+Ex:- s1="hello";
+        s2="Hello";
+s1.equals(s2);
+pass=false(0)
+}
+
+9)  x.equalsIgnoreCase(y)
+{
+//if in string the value x is equal to value of y then it pass true(1) value otherwise false(0) and it doesnt check upper or lower case 
+Ex:- s1="hello";
+        s2="Hello";
+s1.equals(s2);
+pass=true(1)
+} 
+
+10) x.endsWith("y")
+{
+//if the sentence/word(x) are  ends with sentence/word(y) then it pass true(1) otherwise false(0)
+Ex:-s1="i have a car"
+s1.endsWith("a car");
+pass=true(1)
+}
+
+11) s.indexOf(x);
+{
+//it find the first indexing of first x
+Ex:-String s="i am ur frnd and ur classmate";
+s.indexOf(ur);
+output=5
+}
+
+12) s.lastIndexOf(x);
+{
+//it find the last indexing of first x
+Ex:-String s="i am ur frnd and ur classmate";
+s.lastIndexOf(ur);
+output=18
+}
+ 
+13) s.reverse();
+{
+//it reverse the string 
+Ex:- String s="Hyy brother";
+s.reverse();
+output=rehtorb yyH
+}
+
+14) s.append("x");
+{
+//it extendes the string
+Ex:-String s="Hyy";
+s.append(" hi");
+output=Hyy hi
+}
+
+15)s.capacity();
+{
+//it gives current capacity of string
+//default capacity=16
+}
+
+16) s.insert(index,"x")
+{
+//it insert the value x at declared index
+Ex:- StringBuffer s= new stringBuffer("Hyybro");
+s.insert(3," ");
+output:-Hyy bro
+}
+
+17) s.delete(x,y)
+{
+//it delete the string from x to y
+Ex:-StringBuffer s-new StringBuffer("hyyyyyyy")
+s.delete(3,7);
+output:-hyy
+}
+
+
+
+
+
+
+
+
+

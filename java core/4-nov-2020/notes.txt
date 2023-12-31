@@ -1,0 +1,34 @@
+Block->
+
+
+1.Non-static block
+
+2.Static block
+
+static block->A static block execute when java class load.
+
+syntax:
+
+static{
+
+
+}
+
+
+Non-static block->A non-static block execute always when we make the object of class.
+
+syntax:
+
+{
+
+}
+
+
+
+
+
+
+
+
+
+

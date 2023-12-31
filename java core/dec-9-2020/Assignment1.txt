@@ -1,0 +1,5 @@
+String s=rahul
+
+luhar
+
+print string in reverse form

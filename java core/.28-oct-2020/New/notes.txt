@@ -1,0 +1,3 @@
+How to make object in java?
+
+classname referencevariable=new classname();

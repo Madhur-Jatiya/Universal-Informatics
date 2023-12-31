@@ -1,0 +1,111 @@
+Access Specifier and modifier in Java
+
+Access Specifier or modifier->By the help of access specifier or modifier we can define the accessibility(visibility) of class and its member.
+
+Modifier-
+
+public 
+
+Package private(default)
+
+protected
+
+private
+
+
+Specifier->
+
+final
+static
+native
+abstract
+volatile
+strictfp
+transient
+synchronized
+
+Access specifier or modifier which we can apply on class.
+
+1. public->If a class is public then we can access a class outside a package also.
+
+2. Package Private->If a class is package private then we can access a class within a package only.
+
+3.final-> If a class final then we cannot inherit a class.
+
+final class Foo
+{
+}
+
+class Doo extends Foo
+{
+}
+
+
+4. abstract->
+
+5. strictfp->if a class is strictfp then all the methods of that class will be strictfp.
+
+..............................................................
+
+Access specifier or modifier which we can apply on method.
+
+1. public->If a method is public then we can access a method outside a package also.
+
+2. Package Private->If a method is package private then we can access a method within a package only.
+
+3.protected->If a method is protected then we cannot call a method outside the class but it will inherit to the child class.
+
+4. private->If a method is private then we cannot call a method outside the class and it will also not inherit to the child class.
+
+
+
+5.final->If a method is final then we cannot override a method.
+
+6.static->
+
+7.native->If we want to declare a method in java and defined in any other language.
+
+8. abstract ->A method which donot have body.
+
+9. strictfp->
+
+strict void m()
+{
+double d=12.3454987;
+
+System.out.println("value"+d);
+}
+
+jvm is plateform dependent.
+
+linux->12.3454097
+
+windows->12.3453997
+
+mac->12.3454877
+
+9.synchronized->If we want to execute a method by only one thread at a time then we apply synch. keyword on method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

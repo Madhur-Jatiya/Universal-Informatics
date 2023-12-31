@@ -1,0 +1,8 @@
+//Use of new and delete keyword
+
+
+new keyword->Allocate new memory for multiple value.
+
+
+delete->Deallocate memory which is allocated by new keyword
+

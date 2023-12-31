@@ -1,0 +1,137 @@
+class College
+{
+string name,mobile,email
+
+College()
+{
+take value at run time in name,mobile,email
+}
+putcollege()
+{
+print name,mobile,email
+}
+}
+
+
+class Btech:public College
+{
+int p,c,m;
+
+Btech()
+{
+take value in pcm at run time
+}
+
+void putBtech()
+{
+putCollege();
+print
+physics=p
+chemi=c
+mathhs=m
+
+calculate percentage in per
+
+if(per>=70)
+{
+addmission confirm
+}
+else
+{
+addmission not confirm
+}
+}
+};
+
+
+class BA:public College
+{
+int h,c,g;
+
+BA()
+{
+take value in hcg at run time
+}
+
+void putBtech()
+{
+putCollege();
+print
+History=h
+civics=c
+geogoraphy=m
+
+calculate percentage in per
+
+if(per>=70)
+{
+addmission confirm
+}
+else
+{
+addmission not confirm
+}
+}
+};
+
+class Bcom:public College
+{
+int m,a,t;
+
+Bcom()
+{
+take value in mat at run time
+}
+
+void putBcom()
+{
+putCollege();
+print
+mamagement=m
+account=a
+telly=t
+
+calculate percentage in per
+
+if(per>=70)
+{
+addmission confirm
+}
+else
+{
+addmission not confirm
+}
+}
+};
+
+
+int main()
+{
+int x
+Enter 1 for Btech addmision 2 for BA add and 3 for Bcom Add
+
+cin>>x
+
+if(x==1)
+{
+Btech bt;
+bt.putBtech();
+}
+else if(x==2)
+{
+BA ba;
+ba.putBA();
+
+}
+
+else if(x==3)
+{
+Bcom bc;
+bc.putBcom();
+}
+
+
+
+
+}
+

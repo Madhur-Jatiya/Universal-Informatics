@@ -1,0 +1,51 @@
+Inheritence->When a derived class aquire all the properties of base class is known as inheritance.
+Advantange->
+1. Achieve reusibility.
+2. Save time
+3. Increase effieciency
+
+There are 5 types of inheritance-
+
+1.Single level inheritance.
+
+  A->parent class or base class or super class
+  |
+  B->child class or derived class or sub class.
+
+2.Multilevel inheritance
+
+  A->parent
+  |
+  B->parent or child
+  |
+  C->child
+
+3. Hierarchichal inheritance->
+
+         A->parent
+        / \
+child<-B   C->child
+
+4.Multiple inheritance
+
+    parent->A   B->parent
+                   \  /
+               C->child
+
+5.Hybrid inheritance
+    parent A->parent
+             / \
+           B   C->parent or child
+            \  /
+             D
+
+
+
+
+
+
+
+
+
+
+

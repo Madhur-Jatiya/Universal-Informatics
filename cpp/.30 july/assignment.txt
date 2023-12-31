@@ -1,0 +1,46 @@
+abstract Weapon->class
+
+virtual void choose()=0
+
+
+class Gun ->Weapon
+
+void choose()
+{
+u have choose gun
+}
+
+class Bomb ->weapon
+
+void choose()
+{
+u have choosed bomb
+}
+
+class MachineGun-> Weapon
+
+void choose()
+{
+U have choosed machine gun
+}
+main()
+{
+ENter 1 for choose gun 2 for bomb and 3 for Machine gun
+
+x
+Weapon *w;
+Gun g;
+MAchineGun mg;
+Bomb b;
+if(x==1)
+{
+w=&g
+}
+else if(x==2)
+{
+w=&b
+}
+
+
+
+}

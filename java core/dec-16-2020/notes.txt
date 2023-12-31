@@ -1,0 +1,57 @@
+StringTokenizer class in Java with example | Set 1 ( Constructors)
+Last Updated: 27-05-2017
+StringTokenizer class in Java is used to break a string into tokens.
+
+Example:
+stringtokenizer
+
+A StringTokenizer object internally maintains a current position within the string to be tokenized. Some operations advance this current position past the characters processed.
+A token is returned by taking a substring of the string that was used to create the StringTokenizer object.
+
+Constructors:
+
+StringTokenizer(String str) :
+str is string to be tokenized.
+Considers default delimiters like new line, space, tab, 
+carriage return and form feed.
+
+StringTokenizer(String str, String delim) :
+delim is set of delimiters that are used to tokenize
+the given string.
+
+StringTokenizer(String str, String delim, boolean flag):
+The first two parameters have same meaning.  The flag 
+serves following purpose.
+
+If the flag is false, delimiter characters serve to 
+separate tokens. For example, if string is "hello geeks"
+and delimiter is " ", then tokens are "hello" and "geeks".
+
+
+brightness_4
+/* A Java program to illustrate working of StringTokenizer 
+   class:*/
+import java.util.*; 
+public class NewClass 
+{ 
+    public static void main(String args[]) 
+    { 
+        System.out.println("Using Constructor 1 - "); 
+        StringTokenizer st1 = 
+             new StringTokenizer("Hello Geeks How are you", " "); 
+        while (st1.hasMoreTokens()) 
+            System.out.println(st1.nextToken()); 
+  
+        System.out.println("Using Constructor 2 - "); 
+        StringTokenizer st2 =  
+             new StringTokenizer("JAVA : Code : String", " :"); 
+        while (st2.hasMoreTokens()) 
+            System.out.println(st2.nextToken()); 
+  
+        System.out.println("Using Constructor 3 - "); 
+        StringTokenizer st3 =  
+             new StringTokenizer("JAVA : Code : String", " :",  true); 
+        while (st3.hasMoreTokens()) 
+            System.out.println(st3.nextToken()); 
+    } 
+} 

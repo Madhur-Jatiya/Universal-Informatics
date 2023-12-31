@@ -1,0 +1,24 @@
+String->
+1.It is immutible sequence of characters.
+
+2.The indexing of String is always start from zero.
+
+3.The characters in java work on unicode so string based on unicode.
+
+4. It is a final class which lives in lang package.
+
+Unicode-
+
+A-65
+B-66
+
+a-97
+b-98
+..............................................................
+String type-
+
+1.String Object-
+String s=new String("Ramlal");
+
+2.String Literal-
+String s="Ramlal";

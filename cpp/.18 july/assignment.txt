@@ -1,0 +1,70 @@
+//Constructor Assignment
+
+#include<iostream>
+using namespace std;
+
+class-> Event
+string name,clgname,date
+
+
+Event()
+{
+Enter name=
+name
+Enter clgname=\
+clgname
+Enter date=
+date
+
+
+name
+clgname
+date
+
+
+}
+
+method->
+
+void dance()
+{
+U have participated in dance compitition
+}
+
+void sing()
+{
+participated in singing compt.
+}
+
+void quiz()
+{
+participated in quiz compt.
+} 
+
+
+
+
+main()
+{
+Enter 1 for dance,2 for singing and 3 for quiz compt. certificate=
+x;
+
+Event e;
+if(x==1)
+{
+e.dance();
+}
+else if(x==2)
+{
+e.sing();
+}
+else if(x==3)
+{
+e.quiz();
+}
+
+}
+
+
+}
+

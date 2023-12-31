@@ -1,0 +1,40 @@
+// assignment multilevel inheritance
+
+
+student
+roll
+name
+getStudent()
+putStudent()
+
+  |
+
+Academic
+p,c,m
+
+getAcademic()
+putAcademic()
+
+  |
+
+class Result:public Academic
+{
+void show()
+{
+int per=p+c+m/3;
+  per
+}
+};
+
+main()
+{
+Result r;
+r.getStudent()
+r.getAcademic()
+r.putStudent()
+r.putAcademic()
+r.show()
+}
+
+
+

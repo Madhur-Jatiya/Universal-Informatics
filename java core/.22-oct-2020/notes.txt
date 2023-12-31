@@ -1,0 +1,191 @@
+0 and 1 -> binary language
+
+<format>->converter type software->binary language
+binary language->converter type software->user language
+
+
+1969-> B language-> At & T bell lab -us
+interpreter
+
+check code line by line.
+
+
+
+1972->C language-> At&T bell lab -US
+
+compiler
+
+check whole code simultaneously
+
+
+
+
+1985-> C++ ->At & T bell lab-US
+
+C->
+#include<stdio.h>
+
+int main()
+{
+int x=12,y=13,z;
+z=x+y;
+
+printf("Value=%d\n",z);
+}
+.......................................................
+
+void m()
+{
+printf("Hello");
+}
+
+int main()
+{
+m();
+}
+....................................................
+C++->
+
+#include<iostream>
+using namespace std
+
+
+int main()
+{
+int x=12,y=13;
+
+
+int z=x+y;
+
+cout<<"value="<<z<<endl;
+}
+..........................................................
+
+void m()
+{
+cout<<"Hello"<<endl;
+}
+
+int main()
+{
+m();
+}
+
+
+introduce Object oriented approach
+based real world
+copiem
+
+c->class
+o->object
+p->polymorphism
+i->inheritance
+e->encapsulation and abstraction
+m->msg passing
+
+class Foo
+{
+public:
+void m()
+{
+cout<<"Hello"<<endl;
+}
+};
+
+int main()
+{
+Foo f;
+f.m();
+}
+
+........................................................
+
+C and Cpp Program depend on CPU architecture
+
+\t
+
+
+1985->
+
+compny sunmicrosystem->
+
+1991->OAK language->sunmicrosystem
+
+oak tech already registered.
+
+20 to 30 min coffee meeting
+
+name decide java
+
+developed by James Gosling.
+
+2011-sun-microsystem->purchased by oracle.
+
+
+sun-microsystem->
+co-founder-->
+
+Vinod khosla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+............................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

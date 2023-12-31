@@ -1,0 +1,3 @@
+Friend class-> If a class is friend of another class then it can access all private member of friend class.
+
+

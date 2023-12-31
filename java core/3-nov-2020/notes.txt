@@ -1,0 +1,87 @@
+member of class
+content of class
+
+1.Variable
+2.method
+3.constructor
+4.Block
+
+1.Variable-
+
+1.Local var->A variable which we declare within the body of method.We cannot access local variable outside the body of method.
+
+class Foo
+{
+void m()
+{
+int x=100;
+x=x+100;
+System.out.println("value="+x);
+}
+void n()
+{
+x=x+100;//error
+System.out.println("value="+x);error
+}
+}
+
+
+class Test
+{
+public static void main(String arg[])
+{
+Foo f=new Foo();
+f.m();
+f.n();
+}
+}
+
+2.Global variable
+
+->A variable which is shared by all the methods of a class.
+We can access these variable outside the class by the refrence.
+
+class variable or static variable->class
+
+instance or non-static var->object
+
+
+
+....................................................................
+
+constructor->It is used to initialize non-static variable and execute nonstatic method.
+We donot need to call the constructor , when we make object of class , constructor will automatically execute.
+
+Constructor->
+1.Default Const.
+
+2.Userdefined const.
+
+a.No argument constructor
+b.Parameterized constructor
+
+syntax:
+
+classname(parameter)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

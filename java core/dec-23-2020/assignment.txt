@@ -1,0 +1,12 @@
+try
+{
+CheckSugar.check();
+}
+catch(HighSugar hs)
+{
+hs.getMessage();->U have highsugar
+}
+catch(LowSugar ls)
+{
+hs.getMessage();->U have lowsugar
+}

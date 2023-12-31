@@ -1,0 +1,31 @@
+Array->It is a collection of homogenous elements.
+
+two type->
+
+SingleDimensionArray(1d)->list
+
+Explicit:
+
+datatype arrayname[]={e1,e2.....en};
+
+int a[]={12,32,11,17,41};
+float f[]={12.3f,34.0f,56.8f};
+char c[]={'a','n','k'};
+
+Implicit:
+
+datatype arrayname[]=new datatype[size];
+int a[]=new int[5];
+
+float f[]=new float[3];
+
+char c[]=new char[4];
+
+
+
+Array's of array->matrices or multiple list collection.
+
+
+
+
+

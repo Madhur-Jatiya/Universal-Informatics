@@ -1,0 +1,70 @@
+Polymorphism->It is a mixture of greek word.Poly means many and morphism means form.
+
+
+1.Overloading-
+
+a.OPerator overloading
+b.Method overloading 
+
+Overriding-
+a.Method overriding
+
+
+.Method Overloading->In a class we can make a method of same name even same type but parameter must different and it is known as method overloading.
+
+
+
+Rules Of method overloading-
+
+If atleast 1 rules would satisfy then we achieve method overloading.
+
+
+1.Type of parameter different.
+
+void m(int a,int b)
+{
+
+}
+
+void m(float a,float b)
+{
+
+}
+
+2.Number of parameter different.
+
+void m(int a,int b)
+{
+
+}
+void m(int a,int b,int c)
+{
+
+}
+
+3. Order of parameter different
+
+void m(int a,float b)
+{
+
+}
+void m(float a,int b)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

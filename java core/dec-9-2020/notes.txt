@@ -1,0 +1,50 @@
+Conventions Of Java-
+
+variable-
+
+1 word-> all small letter
+2 word-> 1st word all small letter and second word's 1t letter capital
+
+int marks=45;
+int studentMarks=45;
+
+Method-
+
+1 word->all small letter
+2 word-> 1st word all small letter and second word's 1t letter capital
+
+s.length();
+
+sc.nextInt();
+s.charAt();
+
+class
+
+1 word-> 1st letter capital and rest letter small
+2 word->1st letter capital and 2nd letter also capital
+
+class Sting ,Scanner
+
+class StudentResult
+{
+
+}
+
+final variable-
+
+1 word-> All letter capital
+2 word->All letter capital and _->underscore between both word
+
+final int MARKS=23;
+
+final int STUDENT_MARKS=34;
+
+
+
+
+
+
+
+
+
+

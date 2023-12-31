@@ -1,0 +1,36 @@
+Exception Handling->
+
+Exception?
+
+Any unwanted event that occur that may interact normal controll. flow of java program is known as exception.
+
+
+object->Parent class of all class.
+
+
+class Throwable extends Object
+
+RunTimeException's child class->
+
+IndexOutOfBoundException->String or Array
+
+ArithmeticException
+
+NegativeArraySizeException
+
+ArrayStoreException
+
+NumberFormatException
+
+IllegleArgumentException
+
+ClassCastException
+
+NullPointerException
+
+IllegleStateException
+
+
+
+
+

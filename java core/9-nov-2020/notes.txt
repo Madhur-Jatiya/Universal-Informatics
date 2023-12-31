@@ -1,0 +1,21 @@
+Dynamic Polymorphic Assignment->If we assign a child class's object in parent class's reference variable then it is known as DPA(Dynamic Polymorphic Assignment).
+
+class Foo
+{
+
+}
+
+class Doo extends Foo
+{
+
+}
+
+
+Foo f=new Doo();//DPA
+
+Doo d=new Foo();//not valid
+
+
+
+Method Overriding->If we want to change the functionality of parent class's method in child class then we have to make same method's type,name and parameter of parent class method in child class and it is known as method overriding.
+

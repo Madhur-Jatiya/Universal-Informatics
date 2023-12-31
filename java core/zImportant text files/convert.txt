@@ -1,0 +1,68 @@
+//convert or type casting
+//bsilfdcb
+
+byte             fROM TO BOTTON
+short                        ||
+int                             V
+long                          V
+float 	     no Requiredment of casting
+double
+{char}                     X (not casting possible)
+{boolean}               X (not casting possible)
+
+Ex:- byte b=12;
+int i=b;  //not required casting
+Sop(i);
+
+
+but if you go from bottom to top then casting compelsory
+Ex:- int b=12;
+byte i=(byte)b;  //required casting
+Sop(i);
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+CONVERT INTO STRING 
+
+1) toCharArray();
+{
+//it conert String into char
+
+Ex:- String s= "Hello World";
+char c[]= s.toCharArray();
+output:-H
+e
+l
+l
+o
+
+W
+o
+r
+l
+d
+}
+
+
+2) getBytes();
+{
+//it converts String into byte
+
+Ex:- String s="Hello World";
+byte b[]= s.getBytes();
+output:-112
+23
+87
+54
+.
+.
+.
+}
+
+
+
+
+
+
+
+

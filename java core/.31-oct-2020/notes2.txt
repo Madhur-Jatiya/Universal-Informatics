@@ -1,0 +1,48 @@
+Content of class 
+or
+member of class
+
+1.variable
+2.Method
+3.Constructor
+4.Block
+
+
+variable 
+
+1.local variable
+2.Global variable
+
+local var->A variable which we declare within the body of method. We cannot access local variable outside the body of method.
+
+example-
+class Foo
+{
+void m()
+{
+int x=100;
+x=x+100;
+sopln(x);
+}
+void n()
+{
+x++;//error
+sopln(x);//error
+}
+}
+
+
+2.Global var-
+
+static var or class var
+
+non-static var or instance var
+
+
+
+
+
+
+
+
+

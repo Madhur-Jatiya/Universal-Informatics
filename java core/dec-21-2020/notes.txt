@@ -1,0 +1,4 @@
+throws->
+By the help of throws keyword we can depict a particular method may throw an exception.
+
+throw->

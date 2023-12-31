@@ -1,0 +1,7 @@
+How to execute java program?
+
+1. Install JDK.
+2. Set the path.
+3. Write the code.
+4. Compile the code.
+5. Run the byteCode

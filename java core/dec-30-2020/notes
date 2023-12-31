@@ -1,0 +1,12 @@
+Synchronization->If multiple thread execute some perticular code one by one ,cannot execute sumultaneously.
+
+synchronized->Can apply on method.
+
+
+
+synchronized void search()
+{
+.......
+......
+......
+}

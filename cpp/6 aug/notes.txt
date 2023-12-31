@@ -1,0 +1,63 @@
+Getter and setter method
+
+
+
+
+Setter method->By the help of setter methods we can set a nonstatic variable value outside the class.
+
+Getter method->By the help of getter method we can get a nonstatic variable value outside the class.
+
+
+
+Rules of setter method-
+
+1.Setter method is always of type void.
+2.The name of setter method must start from set and continue according to variablename.
+3.Must pass only one parameter of variable type.
+
+eg-
+void setVariablename(variabledatatype varname)
+{
+
+
+}
+
+...............................................................
+
+Rules of getter method
+
+1.Getter method of always same of variable type.
+2.The name of getter method must start from get and continue according to variable name.
+3.Getter method must have no paramter.
+
+variabledatatye getVariablename()
+{
+
+return var;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+class Student
+{
+int roll,name,percentage;
+
+
+
+
+
+
+
+}
+..............................................................
+this pointer->It represent current class object.
+

@@ -1,0 +1,13 @@
+main()
+{
+
+int size;
+
+size=sc.nextInt();
+
+int a[]=new int[size];
+
+
+
+
+}

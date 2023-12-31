@@ -1,0 +1,33 @@
+class Foo
+{
+public static void main(String args[])
+{
+
+}
+}
+
+
+public->main() must be public
+static->provide memory to main().
+void->Return nothing
+main()->A method which is executed by operating system when we run our code.
+
+String and System is must be capital in java.
+
+System->A system is a class.
+out->static object(printstream)
+
+print()->print msg
+println()->line change after print msg
+
+
+import java.lang.*; is import bydefault
+
+
+
+
+
+
+
+
+

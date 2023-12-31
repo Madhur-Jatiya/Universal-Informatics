@@ -1,0 +1,53 @@
+Access Specifier and modifier in Java
+
+Access Specifier or modifier->By the help of access specifier or modifier we can define the accessibility(visibility) of class and its member.
+
+Modifier-
+
+public 
+
+Package private(default)
+
+protected
+
+private
+
+
+Specifier->
+
+final
+static
+native
+abstract
+volatile
+strictfp
+transient
+synchronized
+
+Access specifier or modifier which we can apply on class.
+
+1. public->If a class is public then we can access a class outside a package also.
+
+2. Package Private->If a class is package private then we can access a class within a package only.
+
+3.final-> If a class final then we cannot inherit a class.
+
+final class Foo
+{
+}
+
+class Doo extends Foo
+{
+}
+
+
+4. abstract->
+
+5. strictfp->if a class is strictfp then all the methods of that class will be strictfp.
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+Interface->It is a incomplete design or specification which corelate two unrelated objects.
+
+
+Like abstract class we cannot create object of interface.
+
+
+syntax: 
+
+interface interfacename->userdefined
+{
+public static final variable
+public abstract method
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

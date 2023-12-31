@@ -1,0 +1,8 @@
+How to handle an exception?
+
+try{}->Risky code
+
+catch{}->Handling code
+
+finally{}->A code we write here which is compulsion to execute.
+

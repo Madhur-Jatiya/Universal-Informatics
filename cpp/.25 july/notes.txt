@@ -1,0 +1,16 @@
+Encapsulation-> The wrapping up of data(variable) and method within a single unit is known as encapsulation.
+
+
+Encapsulation says data should be private and method should be public.
+...............................................................
+
+Access Specifier or modifier->It defined the accesibility or visibility of class's member.
+
+1.public->If a member of a class is public then we can access a member outside the class(by reference).The member will also inherit to the child class.
+
+2.private->If a member is private then we cannot access the member outside the class.The member will not inherited to the child class.
+
+3.Protected->If a member is protected then we cannot access the member outside the class but the member will inherit to the child class.
+..............................................................
+
+Ambiguity problem->Mutiple inheritance

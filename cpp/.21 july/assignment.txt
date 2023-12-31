@@ -1,0 +1,32 @@
+Student->class
+
+roll int
+
+name string
+
+getstudent()
+take value at run time
+
+putStudent()
+print value
+
+Academic->parent Student
+
+int p,c,m
+getAcademic()
+take value at run time
+
+putAcademic()
+print pcm value
+
+
+
+main()
+{
+make obj academic
+getStudent()
+getAcademic()
+putstudent()
+putAcademic()
+
+}

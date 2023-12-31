@@ -1,0 +1,61 @@
+String is a predefined class but we can say it is a best datatype.
+
+String s="a";
+
+String s2="Ankit";
+
+String s3="Ankit@123_*";
+
+String s4="12";
+
+String s5="12.5";
+
+
+Command Line Argument->By the help of command line argument we can take n number of String value through command at run time.
+
+
+..............................................................
+
+
+int a[],b,c[];
+
+
+float[] a,b,c[]; same as  float []a,b,c[];
+
+
+int a[][];
+
+int[] a[];
+
+int [][]a;
+
+
+int []a[];
+
+int [][]a;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

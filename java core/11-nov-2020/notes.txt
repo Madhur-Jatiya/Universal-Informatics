@@ -1,0 +1,13 @@
+Abstract Class-> A class which we cannot instantiate is known as abstract class.
+
+An abstract class must have at least one abstract method.
+
+
+Abstract method->A method which donot have a body is known as abstract method.
+
+syntax:
+abstract class classname
+{
+
+}
+

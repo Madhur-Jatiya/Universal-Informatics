@@ -1,0 +1,3 @@
+Friend Function-> 
+If a function is a friend of class known as friend function.
+A friend function can access all private member of class.

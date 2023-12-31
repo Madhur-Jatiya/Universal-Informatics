@@ -1,0 +1,6 @@
+Method Overriding->If we want to change the functionality of child class's method which is given by parent class then we to write same typr,same name and same paramter of parent class's method in child class and it is known as method overloading.
+
+
+Virtual function->If we want to
+
+

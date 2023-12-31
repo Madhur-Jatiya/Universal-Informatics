@@ -1,0 +1,19 @@
+StringBuffer->It is a mutible sequence of characters.
+It doesnot supports literal. It supports only object.
+
+StringBuffer sb=new StringBuffer();
+
+How String buffer achieve mutibility?
+
+Default buffersize- 16
+
+oldbuffersize*2+2;
+
+userdefined size:
+
+StringBuffer sb=new StringBuffer(10);
+
+
+
+
+

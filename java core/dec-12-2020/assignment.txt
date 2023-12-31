@@ -1,0 +1,5 @@
+take 10 values(name with sirname) in string array at run time
+
+sc.nextLine();
+
+count name in array whos sirname is pandey

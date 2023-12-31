@@ -1,0 +1,41 @@
+Package->It is just a kind of folder or directory which contains bytecode files.
+A package may have subpackages.
+
+eg-import java.util.*;
+import java.lang.*;
+
+package->
+1. predefined package->
+eg- util, lang subpackage
+
+
+2. userdefined package
+
+Use-
+By importing a package we can do the following task-
+
+1. Make the object of classes and access non-static member which lives in package.
+
+2. Access static member of class which lives in package.
+
+3. Inherit a class which lives in package.
+
+Note: If we use the class and memnber of class outside the package by importing then the class and its member must public. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

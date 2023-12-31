@@ -1,0 +1,24 @@
+Method-
+
+Non-static method
+Static Method
+
+
+Constructor- A construtor is used to initialize non-static variable and execute nonstatic method.
+
+It is almost like a method except We donot need to call the constructor, Whenever we make the object of class constructor will automatically execute.Constructor never return a value.
+
+Consrtructor->
+Default Constructor-
+1.No argument const.
+
+Userdefined Constructor
+1.No argument const.
+2.Parameterized const.
+
+
+syntax:
+classname(parameter)
+{
+
+}
